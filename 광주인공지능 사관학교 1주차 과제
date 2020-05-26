@@ -1,0 +1,275 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyP8PRYAmgBylF3wtk2VwT5p",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/uhvuk01/-/blob/master/%EA%B4%91%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90%201%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Eu-qmo58IjCO",
+        "colab_type": "text"
+      },
+      "source": [
+        "1주차 과제\n",
+        "=============="
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "s7IdxhUxKA7h",
+        "colab_type": "text"
+      },
+      "source": [
+        "**1. 언어 인공지능 제품 및 서비스**\n",
+        "------------------------"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "JkFdVbJXLx4A",
+        "colab_type": "text"
+      },
+      "source": [
+        "      \n",
+        "####번역"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xLjZamXJ9PSm",
+        "colab_type": "text"
+      },
+      "source": [
+        "#####언어 인공지능의 발전의 난제이자, 가장 큰 언어적 분야인 번역은 최근 거듭 성장해나가고 있다.\n",
+        "\n",
+        "#####최근 구글을 능가한 번역점수를 받은 번역기가 있다. 바로 \"트위그팜 지콘 스튜디오\" 번역기이다. \n",
+        "\n",
+        "#####해당 제품은 번역을 해야하는 문단의 단어 중 중복된 단어를 수집하여 같은 뜻을 산출해내어 문장의 해석에 일관성을 더한다. 또한 중복단어를 뺀 나머지 단어만을 번역하면 되기 때문에, 비용절감과 빠른 번역이 가능하다.\n",
+        "\n",
+        "#####그리고 '번역사전'이란 어플의 내재된 기능을 통해 사람들이 번역을 시도한 모든 문장을 머신러닝하면서 동시에 빅데이터를 형성한다. 그러면 더욱 높은 품질의 번역이 가능해지는 것이다."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "qAZUz6GL9PUo",
+        "colab_type": "text"
+      },
+      "source": [
+        "다음은 해당 제품의 홍보영상이다. [트위그팜 지콘 스튜디오 홍보영상](https://www.youtube.com/watch?v=oV2YX1Q-kQM&feature=emb_title)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "s8v-5-h7ALDH",
+        "colab_type": "text"
+      },
+      "source": [
+        "\n",
+        "\n",
+        "---\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "3GoPKMAVALKc",
+        "colab_type": "text"
+      },
+      "source": [
+        "**2. 음성 인공지능 제품 및 서비스**\n",
+        "------------------------ "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Zny8wMLf72cY",
+        "colab_type": "text"
+      },
+      "source": [
+        "      \n",
+        "####인공지능 콜센터"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "c19DsDTmAzat",
+        "colab_type": "text"
+      },
+      "source": [
+        "#####음성인식 인공지능은 당장 우리옆에와있다. 예를들어 우리가 쓰는 스마트폰에 있는 '빅스비', '시리' 와 같은 음성인식 어플리케이션이나 혹은 TV를 볼 때 '기가지니' 와 같은 제품들이 그런 예이다. \n",
+        "#####그런데 작년 네이버에서는 획기적인 아이디어를 생각해내었다. 바로 음성인식(CSR), 자연어처리(NLP), 음성합성기술(CSS) 등 네이버 AI 기술이 종합적으로 구현된 \"AI 콜센터 직원\"이다. \n",
+        "예를들어 식당을 예약하려 하는 손님이 전화가 오면 \"몇시로 예약 해드릴까요?\" \"음...잠....시만요~\" 등 손님과의 자연스러운 대화가 오가는 것이다.\n",
+        "  그런데 AI 콜센터의 장점이 뭘까? \n",
+        "아마 \"자영업자들의 일의 회전율\", \"노인들의 AI 진입장벽 약화\"에 의의가 있을 것이라 생각한다.\n",
+        " \n",
+        " 평소 우리가 봐왔던 식당이나 미용실 등은 전화가 오면 장부에 예약 명단을 적어 예약자들을 관리하였다. 그러면 당연히 누락자가 생길 수 있으며 회원 관리에 어려움을 겪을 것이다. 따라서 AI 콜센터를 사용하여 누락자를 최소화 하고 더불어 고객이 지금까지 예약했던 건수를 데이터로 모아 '단골고객 선정'과 같은 일도 해줄 수 있을 것이다.\n",
+        "\n",
+        " 또한 노인들의 경우, 예약을 했을때 자동응답같은 ARS는 약간의 어려움이 존재했을 것이다. 그러나 사람과 대화하듯 예약을 할 수 있다면 당연히 남녀노소를 불문하는 AI 기술이 될 것이다. "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Mscz7gpPG4K1",
+        "colab_type": "text"
+      },
+      "source": [
+        "다음은 해당 제품의 시연영상이다. [AI 콜직원](https://tv.naver.com/v/9656710?plClips=false:9656901:9656710:9655345:9657878:11442624:10634077:5582301:9071861:9416721:10648429:9753365:5709591:2084907:12119862:2123292:897622:12736698:10636515:5815112:2856048:12434620:8549329:8834152:2624367:1750766:5677680:3016996:8245459:12065293:1642791:2855630:8087184:8087140:5033558:4600217:12771118&query=AI+%EC%BD%9C)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "lbkIWHxBH82t",
+        "colab_type": "text"
+      },
+      "source": [
+        "\n",
+        "---"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "l7DlAFefIDRJ",
+        "colab_type": "text"
+      },
+      "source": [
+        "**3. 이미지 인공지능 제품 및 서비스**\n",
+        "------------------------"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ybcHYex1K7Cd",
+        "colab_type": "text"
+      },
+      "source": [
+        "####공항 검색대"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "2WSKONSP9Kd3",
+        "colab_type": "text"
+      },
+      "source": [
+        "인천국제공항공사는 내년 하반기 시범운영을 목표로 인공지능을 기반으로 한 엑스레이 영상 자동판독시스템 구축사업을 추진하였다.\n",
+        "\n",
+        "기존 인천공항 출국장에서는 기내 반입 물품에 대한 엑스레이 검색을 직원이 수행해왔다. 인공지능 엑스레이 판독시스템이 도입되면 인공지능 컴퓨터가 1차로 검색하면서 반입금지품을 엑스레이 영상에 표시해준다. 직원은 엑스레이 영상을 보고 반입금지품을 적발하거나 휴대품 개장 여부 등을 종합적으로 판단한다. 검색이 이중으로 이뤄져 탐지 누락 비율이 줄어들 것으로 예상된다.\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "k1wHfofx-W-W",
+        "colab_type": "text"
+      },
+      "source": [
+        "다음은 해당서비스의 기사 내용이다. [인천공항 AI 검색대](https://www.edaily.co.kr/news/Read?newsId=02781446622392488)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xi6czchC_Dht",
+        "colab_type": "text"
+      },
+      "source": [
+        "---"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "E1ppnTQG-p7n",
+        "colab_type": "text"
+      },
+      "source": [
+        "**4. 자율주행 인공지능 제품 및 서비스**\n",
+        "------------------------"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "colab_type": "text",
+        "id": "KMGsMjjh-z7G"
+      },
+      "source": [
+        "      \n",
+        "####자율주행 자동차"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0dFvAlEE_Mso",
+        "colab_type": "text"
+      },
+      "source": [
+        "인공지능 발전의 현재진행형 목표인 '자율주행 자동차'는 무슨 의미일까?   \n",
+        "  말 그대로 사람이 직접운전하는 것이아닌, 자동차가 알아서 운전을 하는 것이다. 당연하게도 아직 완성단계는아니며 장단점이 고스란히 나타난다.   \n",
+        "  장점   \n",
+        "  1. 교통제증이 없다.   \n",
+        "  2. 교통사고가 없다.   \n",
+        "  3. 범죄율이 감소한다.   \n",
+        "  4. 빠른 배달   \n",
+        "  5. 세계최고의 택시   \n",
+        "  \n",
+        "\n",
+        "  단점   \n",
+        "  1. 개발의 어려움   \n",
+        "  2. 사이버 범죄자   \n",
+        "  3. 지속적인 감시   \n",
+        "   \n",
+        "   그러나 아직까진 일반 자동차보다 자율주행 자동차가 더욱 장점이 많을 것으로 보인다.   \n",
+        "   목표지역 예상시간을 정확히 파악을 한다던지, 목표한 시간에 맞게 주행을 해준다던지, 자동차는 정말 개인의 수행비서가 될 수 있다는 것이다.\n",
+        "   \n",
+        " "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "HBNg3vszCmlt",
+        "colab_type": "text"
+      },
+      "source": [
+        "다음은 자율주행차량의 장단점 7가지가 담긴 영상이다. [자율주행자동차의 장단점](https://www.youtube.com/watch?v=SoH8ST9KHXM)"
+      ]
+    }
+  ]
+}
