@@ -4,8 +4,8 @@
 https://github.com/uhvuk01/-/blob/master/%EA%B4%91%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90%201%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C.ipynb
 
 ## 2주차 과제 (2020.05.28)
-파일도 안열릴 뿐더러, 주피터 노트북으로도 404에러 발생으로 인한, 구글 콜랩 링크를 넣었습니다.
-https://colab.research.google.com/github/uhvuk01/-/blob/master/2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%EA%B3%BC%EC%A0%9C.ipynb?hl=ko
+파일이 열리지 않아 nbviewer로 작성하였습니다.
+https://nbviewer.jupyter.org/github/uhvuk01/-/blob/master/2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%EA%B3%BC%EC%A0%9C.ipynb
 
 ## 3주차 과제 (2020.06.04)
 https://github.com/uhvuk01/-/blob/master/3%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C.ipynb
